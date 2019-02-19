@@ -9,8 +9,13 @@
 
     <title>Movie Data</title>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/ngcontrol.js') }}"></script>
+    
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
